@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #2C3E50;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #7F8C8D;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 1.8em;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+/* Contact Information */
+.contact-info p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Education Section */
+.education p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Projects Section */
+.projects .project {
+    margin-bottom: 15px;
+}
+
+.projects h3 {
+    font-size: 1.4em;
+    color: #34495E;
+}
+
+.projects p {
+    font-size: 1.1em;
+    color: #7F8C8D;
+}
+
+/* Experience Section */
+.experience ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.experience li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Achievements and Extracurricular Sections */
+.achievements ul, .extracurricular ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.achievements li, .extracurricular li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
